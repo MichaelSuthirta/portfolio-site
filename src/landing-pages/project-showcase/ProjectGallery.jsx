@@ -1,7 +1,7 @@
 import BlackUpArrow from '../../ui-components/arrow-scroll/BlackUpArrow';
 import '.\\ProjectGallery.css'
 import '..\\..\\Theme.css'
-import Carousel from './gallery-components/carousel/Carousel';
+import Carousel from './carousel/Carousel';
 
 function ProjectGallery(){
     return(

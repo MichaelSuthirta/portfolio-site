@@ -1,4 +1,4 @@
-export const projects = [
+export const ProjectList = [
     {
         title: "SpeechTeach",
         mainImgUrl: "src\\assets\\images\\SpeechTeach-logo.png",
@@ -85,25 +85,6 @@ export const projects = [
         status: "Unfinished",
         imagesList: [
             
-        ],
-        role: [
-            "Frontend developer"
-        ],
-        lessons: [
-            "Flutter states and recording system",
-            "Problem solving",
-        ],
-        githubLink: "https://github.com/MichaelSuthirta/SocMedVirtualAssistant"
-    },
-
-    {
-        title: "Social Media Virtual Assistant",
-        mainImgUrl: "src\\assets\\images\\virtual-assistant-img.png",
-        date: "2025",
-        description: "A group project that utilizes Vosk and Flutter to create a voice assistant capable of helping elderly with using social media such as Whatsapp.",
-        status: "Unfinished",
-        imagesList: [
-            "src\\assets\\images\\project-screenshoots\\Virtual-Assistant\\Screenshot 2025-11-03 221914.png"
         ],
         role: [
             "Frontend developer"

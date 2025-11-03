@@ -1,16 +1,18 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css'
-import Profile from "./landing-pages/profile-page/Profile.jsx";
-import ProjectGallery from './landing-pages/project-showcase/ProjectGallery.jsx';
+
 import Navbar from './ui-components/navbar/Navbar.jsx';
+import Home from './landing-pages/home/Home.jsx';
+import ProjectDetails from './content-pages/project-details/ProjectDetails.jsx';
 
 function App() {
   return(
     <div>
       <Navbar/>
-      <div className='multi-page-scroll'>
-        <Profile />
-        <ProjectGallery />
-      </div>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/details' element={<ProjectDetails/>} />
+      </Routes>
     </div>
   );
 }

@@ -16,11 +16,3 @@ h1, p, li{
 p, li{
   font-size: 18px;
 }
-
-.multi-page-scroll{
-  width: 100vw;
-  height: 100vh;
-  box-sizing: border-box;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}

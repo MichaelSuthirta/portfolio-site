@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar(){
@@ -21,7 +22,9 @@ function Navbar(){
                 </li>
                 <li>
                     <div>
-                        <a href="#">Home</a>
+                        <Link to={"/"}>
+                            <p class="navbar-text">Home</p>
+                        </Link>
                     </div>
                 </li>
             </ul>

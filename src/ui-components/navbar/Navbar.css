@@ -3,7 +3,7 @@
     background-color: black;
     z-index: 100;
     height: 60px;
-    width: 99vw;
+    width: 100vw;
     top: 0;
     left: 0;
     overflow: hidden;
@@ -16,6 +16,10 @@
         padding-right: 20px;
         float: right;
     }
+}
+
+.navbar-text{
+    margin: auto;
 }
 
 /* <a> style is at index.css */
