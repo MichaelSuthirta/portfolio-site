@@ -1,0 +1,12 @@
+#skills{
+    h1{
+        font-size: 50px;
+    }
+    h1, p, li{
+        text-align: right;
+    }
+    ul{
+        list-style-type: circle;
+    }
+    direction: rtl;
+}

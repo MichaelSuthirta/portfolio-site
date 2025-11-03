@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Century-Gothic;
+  src: url(.\assets\fonts\Century-Gothic.TTF);
+}
+
+@font-face {
+  font-family: Century-Gothic;
+  src: url(.\assets\fonts\Century-Gothic-Bold.TTF);
+  font-weight: bold;
+}
+
+h1, p, li{
+  font-family: Century-Gothic;
+}
+
+p, li{
+  font-size: 18px;
+}
+
+.multi-page-scroll{
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}

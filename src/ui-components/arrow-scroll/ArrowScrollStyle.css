@@ -1,0 +1,9 @@
+.scroll-arrow{
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: block;
+    align-self: center;
+}

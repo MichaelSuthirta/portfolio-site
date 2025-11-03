@@ -1,0 +1,26 @@
+.carousel{
+    margin: auto;
+}
+
+.carousel-container{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.carousel-container img{
+    position: absolute;
+    border-radius: 20px;
+}
+
+.carousel-container p{
+    position: absolute;
+    color: white;
+    background-color: rgba(44, 44, 44, .8);
+    z-index: 5;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
