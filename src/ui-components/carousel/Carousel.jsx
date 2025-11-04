@@ -1,5 +1,5 @@
 import "./Carousel.css";
-import { ProjectList } from "../../../project-maps/ProjectList";
+import { ProjectList } from "../../project-maps/ProjectList";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import SwiperCore from 'swiper/core';
@@ -7,7 +7,7 @@ import { EffectCreative } from "swiper/modules";
 import 'swiper/css';
 import { Link } from "react-router-dom";
 
-function Carousel(){
+function Carousel({autoplay, list}){
     SwiperCore.use([Autoplay]);
 
     return(
@@ -17,9 +17,7 @@ function Carousel(){
                 slidesPerView={1}
                 loop={true}
                 loopAdditionalSlides={2}
-                autoplay={{
-                    delay: 2000
-                }}
+                autoplay={autoplay? {delay:2000} : false}
                 modules={[EffectCreative]}
                 effect={"creative"}
                 creativeEffect={{
@@ -36,14 +34,11 @@ function Carousel(){
                 }}
             >
             {
-                ProjectList.map(
-                    (project) => {
+                list.map(
+                    (content) => {
                         return <SwiperSlide>
                             <div className="carousel-container">
-                                <Link to={{pathname: "/details/" + project.id}}>
-                                    <img src={project.mainImgUrl}/>
-                                    <p className="project-title">{project.title}</p>
-                                </Link>
+                                {content.val}
                             </div>
                         </SwiperSlide>    
                     }
