@@ -39,12 +39,12 @@ function Carousel(){
                 ProjectList.map(
                     (project) => {
                         return <SwiperSlide>
-                            <Link to={{pathname: "/detail"}}>
-                                <div className="carousel-container">
+                            <div className="carousel-container">
+                                <Link to={{pathname: "/details/" + project.id}}>
                                     <img src={project.mainImgUrl}/>
                                     <p className="project-title">{project.title}</p>
-                                </div>
-                            </Link>
+                                </Link>
+                            </div>
                         </SwiperSlide>    
                     }
                 )

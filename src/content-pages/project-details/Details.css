@@ -1,0 +1,45 @@
+.header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items:last baseline
+}
+
+.header p{
+    line-height: 0;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    padding: 1px;
+    margin-top: 5px;
+    grid-template-rows: auto 1fr;
+    
+}
+
+.icon-button{
+    height: 35px;
+    width: 35px;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-row{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.content-description{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.personal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.personal ul, li{
+    list-style-type: circle;
+}

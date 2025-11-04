@@ -1,5 +1,6 @@
 export const ProjectList = [
     {
+        id: 0,
         title: "SpeechTeach",
         mainImgUrl: "src\\assets\\images\\SpeechTeach-logo.png",
         date: "2025",
@@ -29,6 +30,7 @@ export const ProjectList = [
     },
 
     {
+        id: 1,
         title: "Pathforging Realms",
         mainImgUrl: "src\\assets\\images\\Pathforging-Realms-img.png",
         date: "2024-2025",
@@ -57,6 +59,7 @@ export const ProjectList = [
     },
 
     {
+        id: 2,
         title: "Fine-tuned Whisper",
         mainImgUrl: "src\\assets\\images\\whisper-finetune-img.png",
         date: "2025",
@@ -78,6 +81,7 @@ export const ProjectList = [
     },
 
     {
+        id: 3,
         title: "Social Media Virtual Assistant",
         mainImgUrl: "src\\assets\\images\\virtual-assistant-img.png",
         date: "2025",
@@ -97,6 +101,7 @@ export const ProjectList = [
     },
 
     {
+        id: 4,
         title: "Signature Forgery Detection",
         mainImgUrl: "src\\assets\\images\\signature-detection-img.png",
         date: "2025",
@@ -123,6 +128,7 @@ export const ProjectList = [
     },
 
     {
+        id: 5,
         title: "Flexinote",
         mainImgUrl: "src\\assets\\images\\flexinote-img.png",
         date: "2024",
@@ -148,6 +154,7 @@ export const ProjectList = [
     },
 
     {
+        id: 6,
         title: "The Gold Mine",
         mainImgUrl: "src\\assets\\images\\gold-mine-img.png",
         date: "2023",
