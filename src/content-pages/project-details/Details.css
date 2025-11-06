@@ -14,7 +14,15 @@
     padding: 1px;
     margin-top: 5px;
     grid-template-rows: auto 1fr;
-    
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ss-container{
+    width: 300px;
+    height: 100%;
+    margin: auto;
 }
 
 .icon-button{
@@ -27,7 +35,9 @@
 
 .content-row{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
+    width: 100%;
+    height: 100%;
 }
 
 .content-description{

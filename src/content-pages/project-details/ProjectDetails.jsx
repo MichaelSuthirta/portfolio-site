@@ -1,12 +1,27 @@
 import { useParams } from 'react-router-dom';
 import '../../Theme.css';
 import './Details.css';
+// import '../../ui-components/carousel/Carousel.css';
 import { ProjectList } from '../../project-maps/ProjectList';
+import Carousel from '../../ui-components/carousel/Carousel';
 
 function ProjectDetails(){
     const { id } = useParams();
 
     let data = ProjectList.find((project) => project.id === parseInt(id));
+
+    const imageList = data.imagesList.map(
+        (image, index) => (
+            {
+                key: index,
+                val: (
+                    <a href={image}>
+                        <img src={image}/>
+                    </a>
+                )
+            }
+        )
+    );
 
     return(
         <div className="dark">
@@ -32,13 +47,21 @@ function ProjectDetails(){
                             <img src='/assets/content-UI/download-white.png' className='icon-button'/>
                         </a>
                     }
+                    <br></br>
                 </div>
                 <div className='content-row'>
-                    <p>AAAA</p>
+                    <div className='ss-container'>
+                        <Carousel autoplay={true} list={imageList}/>
+                        <p>(Click to see full image.)</p>
+                    </div>
                     <div className='content-description'>
                         <div>
                             <h1>Description</h1>
                             <p>{data.description}</p>
+                            <br/>
+                            <h1>Status</h1>
+                            <p>{data.status}</p>
+                            <br />
                         </div>
                         <div className='personal'>
                             <div>
@@ -46,8 +69,8 @@ function ProjectDetails(){
                                 <ul style={{margin:5}}>
                                     {
                                         data.role.map(
-                                            (role) => {
-                                                return <li>{role}</li>
+                                            (role, index) => {
+                                                return <li key={index}>{role}</li>
                                             }
                                         )
                                     }
@@ -58,8 +81,8 @@ function ProjectDetails(){
                                 <ul style={{margin:5}}>
                                     {
                                         data.lessons.map(
-                                            (skill) => {
-                                                return <li>{skill}</li>
+                                            (skill, index) => {
+                                                return <li key={index}>{skill}</li>
                                             }
                                         )
                                     }

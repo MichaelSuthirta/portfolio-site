@@ -2,16 +2,16 @@ export const ProjectList = [
     {
         id: 0,
         title: "SpeechTeach",
-        mainImgUrl: "src\\assets\\images\\SpeechTeach-logo.png",
+        mainImgUrl: "src/assets/images/SpeechTeach-logo.png",
         date: "2025",
         description: "An application utilizing fine-tuned Whisper model to help English learners in practicing pronunciation. The dictionary was taken from https://github.com/benjihillard/English-Dictionary-Database.",
         status: "Finished",
         imagesList: [
-            "src\\assets\\images\\project-screenshoots\\SpeechTeach\\ST1.jpg",
-            "src\\assets\\images\\project-screenshoots\\SpeechTeach\\ST2.jpg",
-            "src\\assets\\images\\project-screenshoots\\SpeechTeach\\ST3.jpg",
-            "src\\assets\\images\\project-screenshoots\\SpeechTeach\\ST4.jpg",
-            "src\\assets\\images\\project-screenshoots\\SpeechTeach\\ST5.jpg"
+            "/assets/project-screenshots/SpeechTeach/ST1.jpg",
+            "/assets/project-screenshots/SpeechTeach/ST2.jpg",
+            "/assets/project-screenshots/SpeechTeach/ST3.jpg",
+            "/assets/project-screenshots/SpeechTeach/ST4.jpg",
+            "/assets/project-screenshots/SpeechTeach/ST5.jpg"
         ],
         role: [
             "UI/UX Designer",
@@ -32,15 +32,15 @@ export const ProjectList = [
     {
         id: 1,
         title: "Pathforging Realms",
-        mainImgUrl: "src\\assets\\images\\Pathforging-Realms-img.png",
+        mainImgUrl: "src/assets/images/Pathforging-Realms-img.png",
         date: "2024-2025",
         description: "A 2D platformer game using Unity Engine, done in a team.",
         status: "Unfinished",
         imagesList:[
-            "src\\assets\\images\\project-screenshoots\\Pathforging-Realms\\Screenshot 2025-09-11 121037.png",
-            "src\\assets\\images\\project-screenshoots\\Pathforging-Realms\\Screenshot 2025-09-11 121822.png",
-            "src\\assets\\images\\project-screenshoots\\Pathforging-Realms\\Screenshot 2025-09-11 121231.png",
-            "src\\assets\\images\\project-screenshoots\\Pathforging-Realms\\Screenshot 2025-09-11 121901.png"
+            "/assets/project-screenshots/Pathforging-Realms/Screenshot 2025-09-11 121037.png",
+            "/assets/project-screenshots/Pathforging-Realms/Screenshot 2025-09-11 121822.png",
+            "/assets/project-screenshots/Pathforging-Realms/Screenshot 2025-09-11 121231.png",
+            "/assets/project-screenshots/Pathforging-Realms/Screenshot 2025-09-11 121901.png"
         ],
         role: [
             "Project Leader",
@@ -61,12 +61,12 @@ export const ProjectList = [
     {
         id: 2,
         title: "Fine-tuned Whisper",
-        mainImgUrl: "src\\assets\\images\\whisper-finetune-img.png",
+        mainImgUrl: "src/assets/images/whisper-finetune-img.png",
         date: "2025",
         description: "A project to fine-tune a Whisper model using Common Native dataset to be used for English voice transcription.",
         status: "Finished",
         imagesList: [
-            "src\\assets\\images\\project-screenshoots\\Whisper-Finetune\\Screenshot 2025-09-11 162256.png"
+            "/assets/project-screenshots/Whisper-Finetune/Screenshot 2025-09-11 162256.png"
         ],
         role: [
             "Developer"
@@ -83,12 +83,12 @@ export const ProjectList = [
     {
         id: 3,
         title: "Social Media Virtual Assistant",
-        mainImgUrl: "src\\assets\\images\\virtual-assistant-img.png",
+        mainImgUrl: "src/assets/images/virtual-assistant-img.png",
         date: "2025",
         description: "A group project that utilizes Vosk and Flutter to create a voice assistant capable of helping elderly with using social media such as Whatsapp.",
         status: "Unfinished",
         imagesList: [
-            
+            "/assets/project-screenshots/Virtual-Assistant/Screenshot 2025-11-03 221914.png"
         ],
         role: [
             "Frontend developer"
@@ -103,14 +103,14 @@ export const ProjectList = [
     {
         id: 4,
         title: "Signature Forgery Detection",
-        mainImgUrl: "src\\assets\\images\\signature-detection-img.png",
+        mainImgUrl: "src/assets/images/signature-detection-img.png",
         date: "2025",
         description: "A group project that uses Pytorch to compare YOLOv11, VGG-19, EGACNN, CNN-AE, and Siamese Networks in detecting false signatures.",
         status: "Finished",
         imagesList: [
-            "src\\assets\\images\\project-screenshoots\\Signature-Forg-Detection\\Screenshot 2025-11-03 214644.png",
-            "src\\assets\\images\\project-screenshoots\\Signature-Forg-Detection\\Screenshot 2025-11-03 214712.png",
-            "src\\assets\\images\\project-screenshoots\\Signature-Forg-Detection\\Screenshot 2025-11-03 214728.png"
+            "/assets/project-screenshots/Signature-Forg-Detection/Screenshot 2025-11-03 214644.png",
+            "/assets/project-screenshots/Signature-Forg-Detection/Screenshot 2025-11-03 214712.png",
+            "/assets/project-screenshots/Signature-Forg-Detection/Screenshot 2025-11-03 214728.png"
         ],
         
         role: [
@@ -130,14 +130,14 @@ export const ProjectList = [
     {
         id: 5,
         title: "Flexinote",
-        mainImgUrl: "src\\assets\\images\\flexinote-img.png",
+        mainImgUrl: "src/assets/images/flexinote-img.png",
         date: "2024",
         description: "A group project that uses Flutter to create an application to take notes and find e-books. For now, this project still has no database integration, utilizing local storage temporarily.",
         status: "Uninished",
         imagesList: [
-            "src\\assets\\images\\project-screenshoots\\Flexinote\\Screenshot 2025-11-03 222018.png",
-            "src\\assets\\images\\project-screenshoots\\Flexinote\\Screenshot 2025-11-03 222038.png",
-            "src\\assets\\images\\project-screenshoots\\Flexinote\\Screenshot 2025-11-03 222052.png"
+            "/assets/project-screenshots/Flexinote/Screenshot 2025-11-03 222018.png",
+            "/assets/project-screenshots/Flexinote/Screenshot 2025-11-03 222038.png",
+            "/assets/project-screenshots/Flexinote/Screenshot 2025-11-03 222052.png"
         ],
         role: [
             "Project manager",
@@ -156,15 +156,15 @@ export const ProjectList = [
     {
         id: 6,
         title: "The Gold Mine",
-        mainImgUrl: "src\\assets\\images\\gold-mine-img.png",
+        mainImgUrl: "src/assets/images/gold-mine-img.png",
         date: "2023",
         description: "A simple group project that utilizes C language to create a simple Command Prompt game. Its mechanics and score saving system is still very simple, utilizing file operations.",
         status: "Finished",
         imagesList: [
-            "src\\assets\\images\\project-screenshoots\\Gold-Mine\\Screenshot 2025-09-23 150343.png",
-            "src\\assets\\images\\project-screenshoots\\Gold-Mine\\Screenshot 2025-09-23 150400.png",
-            "src\\assets\\images\\project-screenshoots\\Gold-Mine\\Screenshot 2025-09-23 150451.png",
-            "src\\assets\\images\\project-screenshoots\\Gold-Mine\\Screenshot 2025-09-23 150608.png"
+            "/assets/project-screenshots/Gold-Mine/Screenshot 2025-09-23 150343.png",
+            "/assets/project-screenshots/Gold-Mine/Screenshot 2025-09-23 150400.png",
+            "/assets/project-screenshots/Gold-Mine/Screenshot 2025-09-23 150451.png",
+            "/assets/project-screenshots/Gold-Mine/Screenshot 2025-09-23 150608.png"
         ],
         
         role: [

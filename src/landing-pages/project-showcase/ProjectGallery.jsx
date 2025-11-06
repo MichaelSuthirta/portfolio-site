@@ -24,7 +24,9 @@ function ProjectGallery(){
             <h1>My Projects</h1>
             <hr/>
             <br/>
-            <Carousel autoplay={true} list={projectList}/>
+            <div className='carousel'>
+                <Carousel autoplay={true} list={projectList}/>
+            </div>
         </div>
     );
 }
