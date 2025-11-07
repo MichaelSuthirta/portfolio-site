@@ -11,28 +11,33 @@ function Organization({name}){
                 <h1>{data.name}</h1>
                 <p><i>{data.translate}</i></p>
             </div>
-            <br />
+            {/* <br /> */}
             <p>{data.description}</p>
             <br />
             <div>
-                <ul>
+                <ul className="org-roles">
                     {
                         data.position.map(
                             (pos, index) => {
                                 return <li key={index} className="position-list">
                                     <div>
-                                        <h1 style={{fontSize: 20}}>{pos.role}</h1>
-                                        <p>{pos.duration}</p>
-                                        {
-                                            pos.jobdesc.map(
-                                                (job, index) =>{
-                                                    return <li key={index} className="jobdesc">
-                                                        {job}
-                                                    </li>
-                                                }
-                                            )
-                                        }
-                                        <br/>
+                                        <h1 style={{fontSize: 25}}>{pos.role}</h1>
+                                        <div className="inner-content">
+                                            <h1 style={{fontSize: 18}}>{pos.duration}</h1>
+                                            <br />
+                                            <ul>
+                                            {
+                                                pos.jobdesc.map(
+                                                    (job, index) =>{
+                                                        return <li key={index} className="jobdesc">
+                                                            {job}
+                                                        </li>
+                                                    }
+                                                )
+                                            }
+                                            </ul>
+                                            <br/>
+                                        </div>
                                     </div>
                                 </li>
                             }

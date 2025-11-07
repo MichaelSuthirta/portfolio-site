@@ -14,10 +14,14 @@
 }
 
 .org-roles{
-    list-style-type: circle;
+    list-style-type: disc;
 }
 
 .jobdesc{
     list-style-type: square;
-    list-style-position: inside;
+}
+
+.inner-content{
+    text-indent: 15px;
+    border-left: dotted;
 }
