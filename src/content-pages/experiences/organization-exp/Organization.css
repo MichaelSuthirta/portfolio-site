@@ -1,0 +1,23 @@
+.org-data-col{
+    padding: 15px;
+}
+
+.org-top-part{
+    text-align: center;
+}
+
+.org-logo{
+    margin: auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+.org-roles{
+    list-style-type: circle;
+}
+
+.jobdesc{
+    list-style-type: square;
+    list-style-position: inside;
+}

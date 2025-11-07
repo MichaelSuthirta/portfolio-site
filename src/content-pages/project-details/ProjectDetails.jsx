@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import '../../Theme.css';
 import './Details.css';
 // import '../../ui-components/carousel/Carousel.css';
-import { ProjectList } from '../../project-maps/ProjectList';
+import { ProjectList } from '../../data-maps/ProjectList';
 import Carousel from '../../ui-components/carousel/Carousel';
 
 function ProjectDetails(){

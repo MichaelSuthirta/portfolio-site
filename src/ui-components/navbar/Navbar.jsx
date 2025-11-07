@@ -17,7 +17,9 @@ function Navbar(){
                 </li>
                 <li>
                     <div>
-                        <a href="#">Experiences</a>
+                        <Link to={"/experiences"}>
+                            <p class="navbar-text">Experiences</p>
+                        </Link>
                     </div>
                 </li>
                 <li>

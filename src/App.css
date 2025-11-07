@@ -9,6 +9,12 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: Century-Gothic;
+  src: url(.\assets\fonts\Century-Gothic-Italic.ttf);
+  font-style: italic;
+}
+
 h1, p, li{
   font-family: Century-Gothic;
 }

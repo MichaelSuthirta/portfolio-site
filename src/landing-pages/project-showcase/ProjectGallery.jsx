@@ -2,7 +2,7 @@ import BlackUpArrow from '../../ui-components/arrow-scroll/BlackUpArrow';
 import '.\\ProjectGallery.css'
 import '..\\..\\Theme.css'
 import Carousel from '../../ui-components/carousel/Carousel';
-import { ProjectList } from '../../project-maps/ProjectList';
+import { ProjectList } from '../../data-maps/ProjectList';
 import { Link } from 'react-router-dom';
 
 function ProjectGallery(){
