@@ -5,7 +5,7 @@
 }
 
 .inner-content{
-    text-indent: 15px;
+    padding: 15px;
     border-left: dotted;
     ul, li{
         list-style-type: square;

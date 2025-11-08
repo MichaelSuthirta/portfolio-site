@@ -2,6 +2,7 @@ import './Experiences.css';
 import Organization from './organization-exp/Organization';
 import BlackUpArrow from '../../ui-components/arrow-scroll/BlackUpArrow';
 import WhiteDownArrow from '../../ui-components/arrow-scroll/WhiteDownArrow';
+import Activities from './other-exp/Activities';
 
 function Experiences(){
     return(
@@ -18,8 +19,9 @@ function Experiences(){
             </div>
             <div className='light'>
                 <BlackUpArrow />
-                <h1>Committee Experience</h1>
+                <h1>Other Experiences</h1>
                 <hr />
+                <Activities />
             </div>
         </div>
     )
