@@ -6,6 +6,17 @@ import WhiteDownArrow from '../../ui-components/arrow-scroll/WhiteDownArrow';
 function Profile(){
     return(
         <div className='dark' id='profile'>
+            <div className='profile-contact-row'>
+                <a href='mailto:michaelsuthirta@gmail.com'>
+                    <img src = '\assets\content-UI\email-white.png' className='profile-contact-icon' />
+                </a>
+                <a href='https://github.com/MichaelSuthirta'>
+                    <img src = '\assets\content-UI\github-white.png' className='profile-contact-icon' />
+                </a>
+                <a href='https://www.linkedin.com/in/michael-suthirta-48160a372/'>
+                    <img src = '\assets\content-UI\linkedin-white.png' className='profile-contact-icon' />
+                </a>
+            </div>
             <div className='framed-text'>
                 <h1 className='name'>MICHAEL<br/>SUTHIRTA</h1>
             </div>
