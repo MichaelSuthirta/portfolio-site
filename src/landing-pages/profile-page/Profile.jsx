@@ -32,17 +32,32 @@ function Profile(){
                 <div id='skills'>
                     <h1>My skills</h1>
                     <hr></hr>
-                    <ul>
-                        <li>
-                            Basic Flutter framework programming
-                        </li>
-                        <li>
-                            Basic Java, Python, C, and C# programming
-                        </li>
-                        <li>
-                            Basic HTML and CSS
-                        </li>
-                    </ul>
+                    <div className='skill-content'>
+                        <div>
+                            <ul>
+                                <li>
+                                    Intermediate English
+                                </li>
+                                <li>
+                                    Collaboration and Teamworking
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    Basic Flutter framework
+                                </li>
+                                <li>
+                                    Basic Java, Python, C, and C# programming
+                                </li>
+                                <li>
+                                    Basic HTML and CSS
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
             <WhiteDownArrow />

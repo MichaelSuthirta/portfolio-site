@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar(){
@@ -7,37 +7,62 @@ function Navbar(){
             <ul id="navbar-list">
                 <li>
                     <div>
-                        <Link to={"/contacts"}>
+                        <NavLink to={"/contacts"}
+                            className={
+                                ({isActive}) =>
+                                    isActive ? 'active' : ''
+                            }
+                        >
                             <p class="navbar-text">Contacts</p>
-                        </Link>
+                        </NavLink>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <Link to={"/certifications"}>
+                        <NavLink to={"/certifications"}
+                            className={
+                                ({isActive}) =>
+                                    isActive ? 'active' : ''
+                            }
+                        >
                             <p class="navbar-text">Certifications</p>
-                        </Link>
+                        </NavLink>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <Link to={"/experiences"}>
+                        <NavLink to={"/experiences"}
+                            className={
+                                ({isActive}) =>
+                                    isActive ? 'active' : ''
+                            }
+                        >
                             <p class="navbar-text">Experiences</p>
-                        </Link>
+                        </NavLink>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <Link to={"/education"}>
+                        <NavLink to={"/education"}
+                            className={
+                                ({isActive}) =>
+                                    isActive ? 'active' : ''
+                            }
+                        >
                             <p class="navbar-text">Education</p>
-                        </Link>
+                        </NavLink>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <Link to={"/"}>
+                        <NavLink to={"/"}
+                            className={
+                                ({isActive}) =>
+                                    isActive ? 'active' : ''
+                            }
+                        >
                             <p class="navbar-text">Home</p>
-                        </Link>
+                        </NavLink>
                     </div>
                 </li>
             </ul>
