@@ -12,16 +12,3 @@
     height: 130px;
     border-radius: 20px;
 }
-
-.org-roles{
-    list-style-type: disc;
-}
-
-.jobdesc{
-    list-style-type: square;
-}
-
-.inner-content{
-    text-indent: 15px;
-    border-left: dotted;
-}
