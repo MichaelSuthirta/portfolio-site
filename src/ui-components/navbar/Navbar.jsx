@@ -28,6 +28,13 @@ function Navbar(){
                 </li>
                 <li>
                     <div>
+                        <Link to={"/education"}>
+                            <p class="navbar-text">Education</p>
+                        </Link>
+                    </div>
+                </li>
+                <li>
+                    <div>
                         <Link to={"/"}>
                             <p class="navbar-text">Home</p>
                         </Link>

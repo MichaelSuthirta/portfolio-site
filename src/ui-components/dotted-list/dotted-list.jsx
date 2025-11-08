@@ -18,7 +18,6 @@ function DottedList({list}){
                                     element.content ? 
                                     <div className="inner-content">
                                         {element.content}
-                                        <br/>
                                     </div>
                                     :
                                     <div></div>

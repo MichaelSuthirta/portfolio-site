@@ -7,6 +7,7 @@ import ProjectDetails from './content-pages/project-details/ProjectDetails.jsx';
 import Experiences from './content-pages/experiences/Experiences.jsx';
 import Certifications from './content-pages/certifications/Certifications.jsx';
 import Contacts from './content-pages/contacts/Contacts.jsx';
+import Education from './content-pages/Education/Education.jsx';
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/details/:id' element={<ProjectDetails/>} />
         <Route path='/experiences' element={<Experiences/>} />
+        <Route path='/education' element={<Education/>} />
         <Route path='/certifications' element={<Certifications />} />
         <Route path='/contacts' element={<Contacts />} />
       </Routes>

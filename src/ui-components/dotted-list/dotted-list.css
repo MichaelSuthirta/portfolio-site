@@ -2,6 +2,7 @@
     ul, li{
         list-style-type: none;
     }
+    height: fit-content;
 }
 
 .inner-content{
@@ -10,4 +11,5 @@
     ul, li{
         list-style-type: square;
     }
+    height: fit-content;
 }
