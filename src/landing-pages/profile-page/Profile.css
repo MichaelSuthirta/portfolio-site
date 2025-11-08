@@ -1,6 +1,39 @@
-#greeting{
+.framed-text{
+    justify-items: center;
+}
+
+.name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-top: 20px;
-    font-size: 120px;
+    font-size: 90px;
+    width: fit-content;
+    /* border: 3px solid white; */
+    position: relative
+}
+
+.name::before, .name::after{
+    content: '';
+    position: absolute;
+    width: 480px;
+    height: 230px;
+    border: 3px solid white;
+}
+
+.name::before{
+    bottom: 0;
+    left: 0;
+    border-top: none;
+    border-right: none;
+}
+
+.name::after{
+    top: 0;
+    right: 0;
+    border-bottom: none;
+    border-left: none;
 }
 
 #skills{
@@ -14,4 +47,10 @@
         list-style-type: circle;
     }
     direction: rtl;
+}
+
+.profile-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }

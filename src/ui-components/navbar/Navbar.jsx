@@ -7,12 +7,16 @@ function Navbar(){
             <ul id="navbar-list">
                 <li>
                     <div>
-                        <a href="#">Contacts</a>
+                        <Link to={"/contacts"}>
+                            <p class="navbar-text">Contacts</p>
+                        </Link>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <a href="#">Certification</a>
+                        <Link to={"/certifications"}>
+                            <p class="navbar-text">Certifications</p>
+                        </Link>
                     </div>
                 </li>
                 <li>
