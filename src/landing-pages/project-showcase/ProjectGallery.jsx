@@ -4,6 +4,7 @@ import '..\\..\\Theme.css'
 import Carousel from '../../ui-components/carousel/Carousel';
 import { ProjectList } from '../../data-maps/ProjectList';
 import { Link } from 'react-router-dom';
+import LightBG from '@/ui-components/themes/LightBG';
 
 function ProjectGallery(){
     const projectList = ProjectList.map(
@@ -19,7 +20,7 @@ function ProjectGallery(){
     )
 
     return(
-        <div id="project-show" className='light'>
+        <LightBG id="project-show">
             <BlackUpArrow />
             <h1>My Projects</h1>
             <hr/>
@@ -27,7 +28,7 @@ function ProjectGallery(){
             <div className='carousel'>
                 <Carousel autoplay={true} list={projectList}/>
             </div>
-        </div>
+        </LightBG>
     );
 }
 

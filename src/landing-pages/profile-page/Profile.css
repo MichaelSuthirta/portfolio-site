@@ -2,14 +2,15 @@
     justify-items: center;
 }
 
+
 .name{
-    padding-top: 20px;
+    /* padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 50px; */
     font-size: 90px;
     width: fit-content;
-    position: relative;
+    /* position: relative; */
     animation: flicker 1s linear forwards;
 }
 
@@ -17,12 +18,22 @@
     1%, 11%, 31%, 40%, 50%, 65%, 80%, 100% {
         opacity: 1;
     }
-    12%, 20%, 32%, 41%, 55%, 60%, 81%, 95% {
+    12%, 20%, 32%, 41%, 52%, 63%, 81%, 95% {
         opacity: 0;
     }
 }
 
-.name::before, .name::after{
+.name-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 90px;
+    width: fit-content;
+    position: relative;
+}
+
+.name-box::before, .name-box::after{
     content: '';
     position: absolute;
     width: 480px;
@@ -30,14 +41,14 @@
     border: 3px solid white;
 }
 
-.name::before{
+.name-box::before{
     bottom: 0;
     left: 0;
     border-top: none;
     border-right: none;
 }
 
-.name::after{
+.name-box::after{
     top: 0;
     right: 0;
     border-bottom: none;
@@ -53,6 +64,11 @@
     width: 35px;
     height: 35px;
     margin: 10px;
+    animation: fade-in-from-left 1s linear forwards;
+}
+
+.intro{
+    animation: fade-in-from-right 1s linear forwards;
 }
 
 #skills{
@@ -66,6 +82,7 @@
         list-style-type: circle;
     }
     direction: rtl;
+    animation: fade-in-from-left 1s linear forwards;
 }
 
 .profile-grid{

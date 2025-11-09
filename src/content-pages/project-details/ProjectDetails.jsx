@@ -4,6 +4,7 @@ import './Details.css';
 // import '../../ui-components/carousel/Carousel.css';
 import { ProjectList } from '../../data-maps/ProjectList';
 import Carousel from '../../ui-components/carousel/Carousel';
+import DarkBG from '@/ui-components/themes/DarkBG';
 
 function ProjectDetails(){
     const { id } = useParams();
@@ -24,7 +25,7 @@ function ProjectDetails(){
     );
 
     return(
-        <div className="dark">
+        <DarkBG>
             <div className='header'>
                 <h1>{data.title} | </h1>
                 <p style={{fontSize: 30}}> {data.date}</p>
@@ -92,7 +93,7 @@ function ProjectDetails(){
                     </div>
                 </div>
             </div>
-        </div>
+        </DarkBG>
     );
 }
 

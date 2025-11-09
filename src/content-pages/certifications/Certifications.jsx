@@ -1,9 +1,10 @@
+import LightBG from '@/ui-components/themes/LightBG';
 import CertificationGrid from './CertificationGrid';
 import './Certifications.css';
 
 function Certifications(){
     return(
-        <div className="light">
+        <LightBG>
             <h1>Certifications</h1>
             <hr />
             <br />
@@ -21,7 +22,7 @@ function Certifications(){
                 <br />
                 <CertificationGrid type={"College"} />
             </div>
-        </div>
+        </LightBG>
     );
 }
 

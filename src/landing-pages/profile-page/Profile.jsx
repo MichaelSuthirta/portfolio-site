@@ -1,11 +1,11 @@
 import '../../Theme.css'
 import './Profile.css';
-import { useLayoutEffect } from 'react'
 import WhiteDownArrow from '../../ui-components/arrow-scroll/WhiteDownArrow';
+import DarkBG from '@/ui-components/themes/DarkBG';
 
 function Profile(){
     return(
-        <div className='dark' id='profile'>
+        <DarkBG id='profile'>
             <div className='profile-contact-row'>
                 <a href='mailto:michaelsuthirta@gmail.com'>
                     <img src = '\assets\content-UI\email-white.png' className='profile-contact-icon' />
@@ -18,11 +18,13 @@ function Profile(){
                 </a>
             </div>
             <div className='framed-text'>
-                <h1 className='name'>MICHAEL<br/>SUTHIRTA</h1>
+                <div className='name-box'>
+                    <h1 className='name'>MICHAEL<br/>SUTHIRTA</h1>
+                </div>
             </div>
             <div className='profile-grid'>
                 <div>
-                    <p>
+                    <p className='intro'>
                     My name is Michael Suthirta, a 5th semester Computer Science student from BINUS University, Indonesia. 
                     I am passionate about designing and creating new things, which by integrating with technology,
                     eventually aimed my interest towards Application Development. In recent times, I've been exploring Mobile
@@ -61,7 +63,7 @@ function Profile(){
                 </div>
             </div>
             <WhiteDownArrow />
-        </div>
+        </DarkBG>
     );
 }
 

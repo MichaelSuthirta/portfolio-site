@@ -1,3 +1,4 @@
+import LightBG from "@/ui-components/themes/LightBG";
 import DottedList from "../../ui-components/dotted-list/dotted-list";
 
 function Education(){
@@ -32,11 +33,11 @@ function Education(){
     )
 
     return (
-        <div className="light">
+        <LightBG>
             <h1>Education</h1>
             <hr />
             <DottedList list={educList} />
-        </div>
+        </LightBG>
     );
 }
 

@@ -3,11 +3,13 @@ import Organization from './organization-exp/Organization';
 import BlackUpArrow from '../../ui-components/arrow-scroll/BlackUpArrow';
 import WhiteDownArrow from '../../ui-components/arrow-scroll/WhiteDownArrow';
 import Activities from './other-exp/Activities';
+import DarkBG from '@/ui-components/themes/DarkBG';
+import LightBG from '@/ui-components/themes/LightBG';
 
 function Experiences(){
     return(
         <div className='multi-page-scroll'>
-            <div className="dark">
+            <DarkBG>
                 <h1>Organizational Experiences</h1>
                 <hr />
                 <br/>
@@ -16,13 +18,13 @@ function Experiences(){
                     <Organization name={"KMK"} />
                 </div>
                 <WhiteDownArrow />
-            </div>
-            <div className='light'>
+            </DarkBG>
+            <LightBG>
                 <BlackUpArrow />
                 <h1>Other Experiences</h1>
                 <hr />
                 <Activities />
-            </div>
+            </LightBG>
         </div>
     )
 }

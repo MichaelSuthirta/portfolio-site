@@ -1,8 +1,9 @@
+import DarkBG from '@/ui-components/themes/DarkBG';
 import './Contacts.css';
 
 function Contacts(){
     return(
-        <div className="dark">
+        <DarkBG>
             <h1>Contacts</h1>
             <hr />
             <div className="centered">
@@ -23,7 +24,7 @@ function Contacts(){
                     <p>+62 8818395983</p>
                 </div>
             </div>
-        </div>
+        </DarkBG>
     );
 }
 
