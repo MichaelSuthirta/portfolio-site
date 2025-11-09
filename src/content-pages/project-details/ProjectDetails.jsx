@@ -70,16 +70,16 @@ function ProjectDetails(){
                     <div className='content-description'>
                         <div>
                             <h1>Description</h1>
-                            <p>{data.description}</p>
+                            <p className='left-p'>{data.description}</p>
                             <br/>
                             <h1>Status</h1>
-                            <p>{data.status}</p>
+                            <p className='left-p'>{data.status}</p>
                             <br />
                         </div>
                         <div className='personal'>
                             <div>
                                 <h1>Roles</h1>
-                                <ul style={{margin:5}}>
+                                <ul style={{margin:5}} className='left-p'>
                                     {
                                         data.role.map(
                                             (role, index) => {
@@ -91,7 +91,7 @@ function ProjectDetails(){
                             </div>
                             <div>
                                 <h1>Skills Learned</h1>
-                                <ul style={{margin:5}}>
+                                <ul style={{margin:5}} className='right-p'>
                                     {
                                         data.lessons.map(
                                             (skill, index) => {

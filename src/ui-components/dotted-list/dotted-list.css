@@ -9,4 +9,18 @@
     padding: 15px;
     border-left: dotted;
     height: fit-content;
+    animation: fade-in-from-right 0.5s linear forwards;
+}
+
+.title-with-img{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.org-logo-list{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    animation: pop-out-with-bounce 0.5s linear forwards;
 }

@@ -11,4 +11,9 @@
     width: 130px;
     height: 130px;
     border-radius: 20px;
+    animation: pop-out-with-bounce 0.5s linear forwards;
+}
+
+.org-desc{
+    animation: fade-in-from-left 0.4s linear forwards;
 }

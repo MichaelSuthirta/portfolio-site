@@ -37,10 +37,10 @@ function Organization({name}){
             <div className="org-top-part">
                 <img src={data.logo} className="org-logo"/>
                 <h1>{data.name}</h1>
-                <p><i>{data.translate}</i></p>
+                <p className="org-desc"><i>{data.translate}</i></p>
             </div>
             {/* <br /> */}
-            <p>{data.description}</p>
+            <p className="org-desc">{data.description}</p>
             <br />
             <div>
             <DottedList list={orgInfo} />

@@ -7,6 +7,7 @@ function Activities(){
                 {
                     key: index,
                     title: content.name,
+                    org: content.org,
                     content: (
                         <div>
                             <h1 style={{fontSize: 20}}>{content.date}</h1>

@@ -5,6 +5,8 @@ import WhiteDownArrow from '../../ui-components/arrow-scroll/WhiteDownArrow';
 import Activities from './other-exp/Activities';
 import DarkBG from '@/ui-components/themes/DarkBG';
 import LightBG from '@/ui-components/themes/LightBG';
+import PhotoGallery from './Gallery/PhotoGallery';
+import BlackDownArrow from '@/ui-components/arrow-scroll/BlackDownArrow';
 
 function Experiences(){
     return(
@@ -24,7 +26,9 @@ function Experiences(){
                 <h1>Other Experiences</h1>
                 <hr />
                 <Activities />
+                <BlackDownArrow />
             </LightBG>
+            <PhotoGallery />
         </div>
     )
 }

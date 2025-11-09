@@ -7,13 +7,13 @@ function Education(){
             name: "BINUS University",
             year: "2023-now",
             major: "Computer Science",
-            grade: 3.87
+            grade: "3.87 / 4"
         },
         {
             name: "Santa Angela Highschool, Bandung",
             year: "2020-2023",
             major: "Science Program",
-            grade: 91.96
+            grade: "91.96 / 100"
         }
     ]
 

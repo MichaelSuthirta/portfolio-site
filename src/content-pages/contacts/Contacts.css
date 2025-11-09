@@ -17,7 +17,13 @@
     p{
         font-weight: 400;
     }
-    animation: fade-in-from-left 0.3s linear forwards;
+}
+
+.contact-row a{
+    animation: pop-out 0.2s linear forwards;
+}
+.contact-row img{
+    animation: pop-out 0.2s linear forwards;
 }
 
 .contact-icon{
