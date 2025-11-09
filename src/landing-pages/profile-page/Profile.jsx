@@ -25,7 +25,7 @@ function Profile(){
             <div className='profile-grid'>
                 <div>
                     <p className='intro'>
-                    My name is Michael Suthirta, a 5th semester Computer Science student from BINUS University, Indonesia. 
+                    Hello! My name is Michael Suthirta, a 5th semester Computer Science student from BINUS University, Indonesia. 
                     I am passionate about designing and creating new things, which by integrating with technology,
                     eventually aimed my interest towards Application Development. In recent times, I've been exploring Mobile
                     Application development, learning about its concepts to strengthen my understanding of it.
