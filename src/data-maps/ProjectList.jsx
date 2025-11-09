@@ -2,7 +2,7 @@ export const ProjectList = [
     {
         id: 0,
         title: "SpeechTeach",
-        mainImgUrl: "src/assets/images/SpeechTeach-logo.png",
+        mainImgUrl: "/assets/project-logo/SpeechTeach-logo.png",
         date: "2025",
         description: "An application utilizing fine-tuned Whisper model to help English learners in practicing pronunciation. The dictionary was taken from https://github.com/benjihillard/English-Dictionary-Database.",
         status: "Finished",
@@ -33,7 +33,7 @@ export const ProjectList = [
     {
         id: 1,
         title: "Pathforging Realms",
-        mainImgUrl: "src/assets/images/Pathforging-Realms-img.png",
+        mainImgUrl: "/assets/project-logo/Pathforging-Realms-img.png",
         date: "2024-2025",
         description: "A 2D platformer game using Unity Engine, done in a team.",
         status: "Unfinished",
@@ -62,7 +62,7 @@ export const ProjectList = [
     {
         id: 2,
         title: "Fine-tuned Whisper",
-        mainImgUrl: "src/assets/images/whisper-finetune-img.png",
+        mainImgUrl: "/assets/project-logo/whisper-finetune-img.png",
         date: "2025",
         description: "A project to fine-tune a Whisper model using Common Native dataset to be used for English voice transcription.",
         status: "Finished",
@@ -84,7 +84,7 @@ export const ProjectList = [
     {
         id: 3,
         title: "Social Media Virtual Assistant",
-        mainImgUrl: "src/assets/images/virtual-assistant-img.png",
+        mainImgUrl: "/assets/project-logo/virtual-assistant-img.png",
         date: "2025",
         description: "A group project that utilizes Vosk and Flutter to create a voice assistant capable of helping elderly with using social media such as Whatsapp.",
         status: "Unfinished",
@@ -104,7 +104,7 @@ export const ProjectList = [
     {
         id: 4,
         title: "Signature Forgery Detection",
-        mainImgUrl: "src/assets/images/signature-detection-img.png",
+        mainImgUrl: "/assets/project-logo/signature-detection-img.png",
         date: "2025",
         description: "A group project that uses Pytorch to compare YOLOv11, VGG-19, EGACNN, CNN-AE, and Siamese Networks in detecting false signatures.",
         status: "Finished",
@@ -131,7 +131,7 @@ export const ProjectList = [
     {
         id: 5,
         title: "Flexinote",
-        mainImgUrl: "src/assets/images/flexinote-img.png",
+        mainImgUrl: "/assets/project-logo/flexinote-img.png",
         date: "2024",
         description: "A group project that uses Flutter to create an application to take notes and find e-books. For now, this project still has no database integration, utilizing local storage temporarily.",
         status: "Uninished",
@@ -157,7 +157,7 @@ export const ProjectList = [
     {
         id: 6,
         title: "The Gold Mine",
-        mainImgUrl: "src/assets/images/gold-mine-img.png",
+        mainImgUrl: "/assets/project-logo/gold-mine-img.png",
         date: "2023",
         description: "A simple group project that utilizes C language to create a simple Command Prompt game. Its mechanics and score saving system is still very simple, utilizing file operations.",
         status: "Finished",

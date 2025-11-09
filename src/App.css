@@ -1,17 +1,17 @@
 @font-face {
   font-family: Century-Gothic;
-  src: url(.\assets\fonts\Century-Gothic.TTF);
+  src: url(/assets/fonts/Century-Gothic.TTF);
 }
 
 @font-face {
   font-family: Century-Gothic;
-  src: url(.\assets\fonts\Century-Gothic-Bold.TTF);
+  src: url(/assets/fonts/Century-Gothic-Bold.TTF);
   font-weight: bold;
 }
 
 @font-face {
   font-family: Century-Gothic;
-  src: url(.\assets\fonts\Century-Gothic-Italic.ttf);
+  src: url(/assets/fonts/Century-Gothic-Italic.ttf);
   font-style: italic;
 }
 
