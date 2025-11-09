@@ -18,6 +18,7 @@
     /* justify-items: center; */
     margin: 10px;
     overflow: hidden;
+    animation: pop-out 0.2s linear forwards;
 }
 
 .image-container{

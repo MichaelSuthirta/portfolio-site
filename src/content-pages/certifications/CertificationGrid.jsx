@@ -1,6 +1,7 @@
 import { Certificates_Activity } from '../../data-maps/Certificates-Activity';
 import { Certificates_IT } from '../../data-maps/Certificates-IT';
 import './CertGrid.css'
+import '../../Theme.css';
 
 function CertificationGrid({type}){
     var data;

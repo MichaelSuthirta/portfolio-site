@@ -54,6 +54,18 @@ function ProjectDetails(){
                     <div className='ss-container'>
                         <Carousel autoplay={true} list={imageList}/>
                         <p>(Click to see full image.)</p>
+                        <br/>
+                        <div>
+                            {
+                                data.barcode && 
+                                <div>
+                                    <div className='barcode-container'>
+                                        <img src={data.barcode} />
+                                    </div>
+                                    <p>Scan this barcode to download!</p>
+                                </div>
+                            }
+                        </div>
                     </div>
                     <div className='content-description'>
                         <div>

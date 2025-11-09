@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar(){
+
     return(
         <nav className="absolute bg-[#2f2f2f] z-[100] height-[60px] w-screen top-0 left-0">
             <ul className="list-none pl-[20px] pr-[30px] float-right">
@@ -10,7 +11,7 @@ function Navbar(){
                         <NavLink to={"/contacts"}
                             className={
                                 ({isActive}) =>
-                                    isActive ? 'text-[#c9c9c9]' : ''
+                                    isActive ? 'text-[#a0a0a0]' : ''
                             }
                         >
                             <p className="m-auto">Contacts</p>
@@ -22,7 +23,7 @@ function Navbar(){
                         <NavLink to={"/certifications"}
                             className={
                                 ({isActive}) =>
-                                    isActive ? 'text-[#c9c9c9]' : ''
+                                    isActive ? 'text-[#a0a0a0]' : ''
                             }
                         >
                             <p className="m-auto">Certifications</p>
@@ -34,7 +35,7 @@ function Navbar(){
                         <NavLink to={"/experiences"}
                             className={
                                 ({isActive}) =>
-                                    isActive ? 'text-[#c9c9c9]' : ''
+                                    isActive ? 'text-[#a0a0a0]' : ''
                             }
                         >
                             <p className="m-auto">Experiences</p>
@@ -46,7 +47,7 @@ function Navbar(){
                         <NavLink to={"/education"}
                             className={
                                 ({isActive}) =>
-                                    isActive ? 'text-[#c9c9c9]' : ''
+                                    isActive ? 'text-[#a0a0a0]' : ''
                             }
                         >
                             <p className="m-auto">Education</p>
@@ -58,7 +59,7 @@ function Navbar(){
                         <NavLink to={"/"}
                             className={
                                 ({isActive}) =>
-                                    isActive ? 'text-[#c9c9c9]' : ''
+                                    isActive ? 'text-[#a0a0a0]' : ''
                             }
                         >
                             <p className="m-auto">Home</p>

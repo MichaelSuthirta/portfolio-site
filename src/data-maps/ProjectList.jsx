@@ -26,7 +26,8 @@ export const ProjectList = [
         ],
         githubLink: "https://github.com/MichaelSuthirta/speech-teach",
         demoLink: "https://drive.google.com/file/d/1IS9sr2nwLh3uYj9hQeBegBu3cgbx4dj4/view?usp=drive_link",
-        downloadLink: "https://drive.google.com/file/d/1--9i5Q4r9APe4cmK2fJNR8Z4k41kp8q-/view?usp=sharing"
+        downloadLink: "https://drive.google.com/file/d/1--9i5Q4r9APe4cmK2fJNR8Z4k41kp8q-/view?usp=sharing",
+        barcode: "/assets/others/speechteach-barcode.png"
     },
 
     {

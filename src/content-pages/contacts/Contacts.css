@@ -17,6 +17,7 @@
     p{
         font-weight: 400;
     }
+    animation: fade-in-from-left 0.3s linear forwards;
 }
 
 .contact-icon{

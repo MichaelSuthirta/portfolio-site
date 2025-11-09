@@ -56,7 +56,7 @@ export function BackgroundPaths({
 
   return (
     <div
-      className="absolute h-screen w-screen flex items-center overflow-hidden justify-center left-0 bottom-0 opacity-[0.6]">
+      className="absolute h-screen w-screen flex items-center overflow-hidden justify-center left-0 bottom-0 opacity-[0.4]">
       <div className="absolute inset-0">
         <FloatingPaths position={1} />
         <FloatingPaths position={-1} />

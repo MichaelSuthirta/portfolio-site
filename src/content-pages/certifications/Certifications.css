@@ -12,4 +12,5 @@
 .badges img{
     height: 120px;
     width: 120px;
+    animation: fade-in-from-left 0.4s linear forwards;
 }
