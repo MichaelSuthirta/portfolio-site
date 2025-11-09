@@ -51,7 +51,7 @@ function Profile(){
                                     Basic Flutter framework
                                 </li>
                                 <li>
-                                    Basic Java, Python, C, and C#
+                                    Basic Java, Python, C, and C# programming
                                 </li>
                                 <li>
                                     Basic HTML and CSS
