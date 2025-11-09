@@ -8,8 +8,5 @@
 .inner-content{
     padding: 15px;
     border-left: dotted;
-    ul, li{
-        list-style-type: square;
-    }
     height: fit-content;
 }

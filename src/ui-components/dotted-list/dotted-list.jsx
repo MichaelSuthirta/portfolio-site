@@ -2,11 +2,11 @@ import './dotted-list.css';
 
 function DottedList({list}){
     return (
-        <ul className="dotted-list">
+        <ul className="list-none h-fit z-5">
             {
                 list.map(
                     (element, index) => {
-                        return <li key={index}>
+                        return <li key={index} className='list-none'>
                             <div>
                                 {
                                     element.title ?

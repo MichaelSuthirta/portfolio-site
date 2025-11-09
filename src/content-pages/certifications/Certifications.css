@@ -1,5 +1,7 @@
 .certificates-content{
+    position: relative;
     margin-top: 20px;
+    z-index: 5;
 }
 
 .badges{

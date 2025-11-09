@@ -71,7 +71,7 @@ function ProjectDetails(){
                                     {
                                         data.role.map(
                                             (role, index) => {
-                                                return <li key={index}>{role}</li>
+                                                return <li key={index} className='personal'>{role}</li>
                                             }
                                         )
                                     }
