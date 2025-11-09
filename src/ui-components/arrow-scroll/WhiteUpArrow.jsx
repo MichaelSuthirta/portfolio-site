@@ -1,4 +1,4 @@
-import '.\\ArrowScrollStyle.css';
+import './ArrowScrollStyle.css';
 
 function WhiteUpArrow(){
     return(
